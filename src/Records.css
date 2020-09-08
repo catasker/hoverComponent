@@ -1,0 +1,77 @@
+.iconHolder {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.recordsIcon {
+    position: relative;
+
+}
+
+.recordsPanel {
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    background-color: white;
+    width: 320px;
+    transform: translateY(-115%);
+    right:-315px;
+    position: absolute;
+}
+
+.header {
+    background-color: #2a2a2a;
+    padding: 5px;
+}
+
+#title {
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+#moduleInfo {
+    border-top: 1px solid grey;
+    border-bottom: 0.5px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+#moduleIcon {
+    height: 60px;
+}
+
+#moduleLabel {
+    width: 170px;
+    text-align:left;
+}
+
+#arrowIcon {
+    height: 25px;
+    padding-right: 5px;
+}
+
+#buttonDiv {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#buttonDiv p {
+    font-size: 12px;
+    margin-top: 5px;
+}

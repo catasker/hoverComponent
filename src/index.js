@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import RecordsIcon from './RecordsIcon';
 import * as serviceWorker from './serviceWorker';
+import RecordsPanel from './RecordsPanel'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RecordsIcon />
   </React.StrictMode>,
   document.getElementById('root')
 );
