@@ -51,7 +51,7 @@ class RecordsPanel extends React.Component {
 
     render() {
         if (this.state.success === false) {
-            return "Error VIN not found"
+            return ''
         }
 
 
